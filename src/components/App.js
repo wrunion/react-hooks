@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import Toggler from './Toggler';
 import HooksForm from './HooksForm';
-// import Movies from './starwarsComponents/Movies';
+import Hearts from './Hearts';
 
 const App = () => {
   return (
     <React.Fragment>
       <div className="Content">
-        <Toggler />
+        <Hearts />
         <HooksForm />
-        {/* <Movies /> */}
       </div>  
     </React.Fragment>
   )
