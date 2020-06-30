@@ -2,9 +2,9 @@ import React from 'react';
 import useInputState from './../hooks/useInputState';
 
 export default function HooksForm() {
-  // const [email, setEmail] = useState("");
-  const [email, setEmail, reset] = useInputState("");
 
+  const [email, setEmail, reset] = useInputState("");
+  
   return (
     <div>
       <h1>The value is: {email}</h1>
